@@ -1,0 +1,7 @@
+print('Welcome to your lose weight calculator.\nLet\'s count how much do you need to lose?')
+print('---------------------')
+weight1 = float (input('Type your weight:'))
+weight2 = float (input ( 'Type your weigth goal:'))
+to_lose = (weight1-weight2)
+print('---------------------')
+print('To go from {} to {}, you need to lose {}'.format(weight1, weight2, to_lose))
